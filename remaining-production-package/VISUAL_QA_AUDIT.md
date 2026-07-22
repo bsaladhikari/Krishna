@@ -10,7 +10,7 @@ A start frame must show the instant **before** the main action, not its result. 
 
 | Scene | Status | Finding |
 |---|---|---|
-| B2-C01 | REVISE BOARD | Start is usable; storyboard repeats nearly the same throne composition and lacks the planned wide-to-close progression. |
+| B2-C01 | PASS v3 BOARD | Replacement board now provides a deliberate wide-to-close throne progression and a still confident close-up before the Vraj cut. |
 | B2-C02 | PASS | Correct pre-decision state and readable progression toward Krishna/crowd reaction. |
 | B2-C03 | PASS | Nanda begins in thought before speaking; board progresses into the exchange. |
 | B2-C04A/B | REVISE SPLIT SET | Dialogue split is correct; dedicated split visuals require final continuity QA. |
@@ -21,8 +21,8 @@ A start frame must show the instant **before** the main action, not its result. 
 | B2-C09 | PASS | Nanda begins seated and progresses to the declaration. |
 | B2-C10 | PASS | Preparation montage has distinct food, cow and crowd beats. |
 | B2-C11 | PASS | Prayer start and mountain-dominant worship progression are usable. |
-| B2-C12 | REJECT | Start frame already reveals the fully manifested divine Giriraj; it must begin before light/tremor/revelation. |
-| B2-C13 | REJECT | Messenger is already kneeling/reporting in the start frame; it must begin at entry before he reaches Indra. |
+| B2-C12 | PASS v2 | Corrected start keeps Govardhan fully natural; board progresses through first light, tremor, mountain-scale emergence and accepted offering. |
+| B2-C13 | PASS v2 | Corrected start places the running messenger at the distant entrance; board tracks arrival, kneel, report and loss of Indra's smile. |
 | B2-C14 | PASS | Correct continuation of messenger report into Indra's reaction. |
 | B2-C15 | PASS | Indra's anger and storm activation have readable escalation. |
 
