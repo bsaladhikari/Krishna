@@ -56,14 +56,14 @@ A start frame must show the instant **before** the main action, not its result. 
 | B4-C02 | PASS | Sunlight, invitation and exit progression is readable. |
 | B4-C03 | PASS v2 | Corrected extreme-wide start keeps the colossal mountain elevated with Krishna tiny; board clearly lowers, contacts and naturally reseats it into the earth. |
 | B4-C04 | PASS v2 | Corrected start shows Yashoda running with a clear gap; board progresses through first touch, embrace and aarti aftermath without repeating the result. |
-| B4-C05 | REJECT | Start is already the knowing skyward look and all panels repeat it. Begin on celebration, then separate Krishna, turn his gaze and end close. |
+| B4-C05 | PASS v2 | Corrected set progresses from family celebration through separation and first skyward turn to a knowing close-up, with an eyeline handoff toward Indra. |
 | B4-C06A/B | REVISE SPLIT SET | New remorse split visuals exist and need final A-to-B continuity QA. |
-| B4-C07 | REJECT | Start already shows Indra kneeling. It must begin with him arriving on foot, crownless and unarmed, before the bow. |
+| B4-C07 | PASS v2 | Corrected crownless, unarmed Indra arrives walking; board progresses through stop, partial kneel and completed bow for the next confession. |
 | B4-C08 | PASS | Continues naturally from kneeling into confession. |
 | B4-C09A/B | REVISE SPLIT SET | New split visuals exist; final A-to-B hand/eyeline continuity QA remains. |
 | B4-C10A/B | PENDING | Split assets are not complete. |
-| B4-C11 | REJECT | Krishna's flute is absent even though the scene's diegetic flute beat is central. |
-| B4-C12 | REJECT | Start does not establish the scripted three motifs—restored mountain, lowered crown and protected Vraj—and reads as a new private conversation. |
+| B4-C11 | PASS v2 | Corrected start visibly establishes the bansuri before playing; board preserves the flute through children, cattle, performance and restored-life wide. |
+| B4-C12 | PASS v2 | Corrected layered start and board establish restored mountain, lowered crown and protected Vraj as distinct motifs before recombining them. |
 | B4-C13 | PASS | Protected community and clear mountain conclusion are readable. |
 | B4-C14 | HOLD | Direct audience address remains subject to the existing user decision; do not generate as a normal cinematic ending without approval. |
 

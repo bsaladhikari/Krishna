@@ -76,7 +76,7 @@ function wordCount(s){return (s.trim().match(/\S+/g)||[]).length}
 function splitDialogue(q,maxWords=17){const words=q.trim().split(/\s+/),out=[];let start=0;while(start<words.length){let end=Math.min(start+maxWords,words.length);if(end<words.length){let preferred=-1;for(let i=end-1;i>=start+8;i--){if(/[।.!?…]["']?$/.test(words[i])){preferred=i+1;break}}if(preferred<0){for(let i=end-1;i>=start+8;i--){if(/[,;:]$|\.\.\.["']?$/.test(words[i])){preferred=i+1;break}}}if(preferred>0)end=preferred}out.push(words.slice(start,end).join(' '));start=end}return out}
 function expandClip(c){if(!c.q||wordCount(c.q)<=Math.floor((c.d-.9)*2.5))return [{...c,sourceId:c.id,take:1,takes:1}];const chunks=splitDialogue(c.q);return chunks.map((q,i)=>{const first=Math.floor(i*c.b.length/chunks.length),last=Math.min(c.b.length-1,Math.floor((i+1)*c.b.length/chunks.length));return {...c,id:`${c.id}${String.fromCharCode(65+i)}`,sourceId:c.id,d:8,q,take:i+1,takes:chunks.length,b:[c.b[first],c.b[last]]}})}
 const clips=SOURCE_CLIPS.flatMap(expandClip);
-const QA_REJECT=new Set(['B2-C12','B2-C13','B4-C05','B4-C07','B4-C11','B4-C12']);
+const QA_REJECT=new Set(['B2-C12','B2-C13']);
 const QA_REVISE=new Set(['B2-C01','B2-C04A','B2-C04B','B2-C07A','B2-C07B','B3-C02A','B3-C02B','B3-C06','B4-C01','B4-C06A','B4-C06B','B4-C09A','B4-C09B','B4-C10A','B4-C10B']);
 function qaStatus(c){if(c.hold)return '⚠ HOLD · प्रयोगकर्ता निर्णय बाँकी';if(QA_REJECT.has(c.id))return '✖ REJECTED · यो visual प्रयोग नगर्नुहोस्';if(QA_REVISE.has(c.id))return '⚠ QA REVISION · अहिले video नबनाउनुहोस्';return '✓ VISUAL QA PASS'}
 const VISUAL_OVERRIDES={
@@ -87,7 +87,11 @@ const VISUAL_OVERRIDES={
  'B3-C16A':{sf:'B3-C16A_START_FRAME_candidate_v2.png',sb:'B3-C16A_STORYBOARD_2X2_candidate_v2.png'},
  'B3-C16B':{sf:'B3-C16B_START_FRAME_candidate_v2.png',sb:'B3-C16B_STORYBOARD_2X2_candidate_v2.png'},
  'B4-C03':{sf:'B4-C03_START_FRAME_candidate_v2.png',sb:'B4-C03_STORYBOARD_2X2_candidate_v2.png'},
- 'B4-C04':{sf:'B4-C04_START_FRAME_candidate_v2.png',sb:'B4-C04_STORYBOARD_2X2_candidate_v2.png'}
+ 'B4-C04':{sf:'B4-C04_START_FRAME_candidate_v2.png',sb:'B4-C04_STORYBOARD_2X2_candidate_v2.png'},
+ 'B4-C05':{sf:'B4-C05_START_FRAME_candidate_v2.png',sb:'B4-C05_STORYBOARD_2X2_candidate_v2.png'},
+ 'B4-C07':{sf:'B4-C07_START_FRAME_candidate_v2.png',sb:'B4-C07_STORYBOARD_2X2_candidate_v2.png'},
+ 'B4-C11':{sf:'B4-C11_START_FRAME_candidate_v2.png',sb:'B4-C11_STORYBOARD_2X2_candidate_v2.png'},
+ 'B4-C12':{sf:'B4-C12_START_FRAME_candidate_v2.png',sb:'B4-C12_STORYBOARD_2X2_candidate_v2.png'}
 };
 function govardhanScaleLock(c){const n=Number(c.sourceId.split('C')[1]);if(!((c.p===3&&n>=11)||(c.p===4&&n<=3)))return '';return `\nGOVARDHAN SCALE AND SUPPORT LOCK: Govardhan is a colossal landscape mass, never a small umbrella, mushroom, neat floating island or handheld prop. In any shot where Krishna is readable, show only an immense cropped underside extending beyond every edge of the frame; never fit the whole mountain silhouette into that shot. Show the full mountain only in an extreme-wide view where Krishna is a tiny figure only a few percent of frame height and village buildings, hundreds of people, cattle and trees establish scale. While the mountain is elevated, Krishna's raised RIGHT LITTLE FINGERTIP must remain visibly connected to and physically supporting the rock in every frame; never swap hands, lose contact or let the mountain float independently.\n`;}
 const CAMERA_MOVES=['a restrained slow push-in toward the primary emotional subject','a gentle left-to-right lateral track that preserves screen direction','a nearly locked composition with subtle cinematic parallax and no reframing jump','a controlled slow pull-back that reveals context without changing the visual axis'];
