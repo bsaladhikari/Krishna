@@ -1,6 +1,6 @@
 # Govardhan Gatha Parts 2–4 — Visual QA Audit
 
-Status date: 2026-07-22
+Status date: 2026-07-23
 
 ## Approval rules
 
@@ -39,13 +39,13 @@ A start frame must show the instant **before** the main action, not its result. 
 | B3-C07 | PASS | Nanda's recognition of Indra's anger is clear. |
 | B3-C08 | PASS | Villagers reach Krishna and plead; multiple reactions are readable. |
 | B3-C09 | PASS | Krishna turns toward Govardhan and advances toward the decision. |
-| B3-C10 | REJECT | Start already places the lifted mountain overhead; this scene must begin before contact, while Krishna walks forward and raises his little finger. |
-| B3-C11 | REJECT | Start already shows Govardhan fully lifted; it must begin with the little finger touching the grounded mountain immediately before the lift. |
+| B3-C10 | PASS v2 | Corrected start keeps Govardhan grounded while Krishna approaches; board ends at contact anticipation without prematurely lifting it. |
+| B3-C11 | PASS v2 | Corrected start shows a colossal grounded rock base; board progresses through contact, first gap, cropped underside and a true extreme-wide scale reveal. |
 | B3-C12 | PASS | Shelter state is established and Krishna visibly supports the mountain. |
 | B3-C13 | PASS | Nanda's concern and call for staffs are readable. |
-| B3-C14 | REJECT | Krishna appears spatially detached/floating and support geometry is unclear; his feet and finger-to-mountain contact must remain physically readable as staffs arrive intact. |
-| B3-C15 | REJECT | Start already shows broken staffs flying. It must begin with every staff intact and touching the underside; breakage occurs only in later storyboard panels. |
-| B3-C16A/B | REJECT | Generated split images allow Krishna's supporting hand to leave the mountain. One raised little finger must remain visibly touching the underside in every panel while only the free hand gestures. |
+| B3-C14 | PASS v2 | Corrected set keeps Krishna grounded with visible finger contact while intact staffs arrive beneath an immense cropped underside. |
+| B3-C15 | PASS v2 | Corrected start has intact staffs touching the underside; later panels show the clean break while Govardhan remains stable. |
+| B3-C16A/B | PASS v2 | Dedicated split set preserves the same camera axis, colossal cropped underside and continuous raised right-little-finger contact; only the free left hand gestures. |
 | B3-C17 | PASS | Krishna remains supporting the mountain while Nanda and Yashoda react. |
 
 ## Part 4
@@ -54,8 +54,8 @@ A start frame must show the instant **before** the main action, not its result. 
 |---|---|---|
 | B4-C01 | REVISE BOARD | Start is usable; storyboard panels are too repetitive to show rain weakening over time. |
 | B4-C02 | PASS | Sunlight, invitation and exit progression is readable. |
-| B4-C03 | REJECT | Start shows Govardhan already restored on the ground and board panels barely change. Start must show it still elevated, then lower, contact and settle. |
-| B4-C04 | REJECT | Start already shows Yashoda embracing Krishna and the board repeats the embrace. Start must show her beginning to run before contact. |
+| B4-C03 | PASS v2 | Corrected extreme-wide start keeps the colossal mountain elevated with Krishna tiny; board clearly lowers, contacts and naturally reseats it into the earth. |
+| B4-C04 | PASS v2 | Corrected start shows Yashoda running with a clear gap; board progresses through first touch, embrace and aarti aftermath without repeating the result. |
 | B4-C05 | REJECT | Start is already the knowing skyward look and all panels repeat it. Begin on celebration, then separate Krishna, turn his gaze and end close. |
 | B4-C06A/B | REVISE SPLIT SET | New remorse split visuals exist and need final A-to-B continuity QA. |
 | B4-C07 | REJECT | Start already shows Indra kneeling. It must begin with him arriving on foot, crownless and unarmed, before the bow. |
