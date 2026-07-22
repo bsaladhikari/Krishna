@@ -1,0 +1,5 @@
+यो फाइलको canonical script यहाँ प्रतिलिपि नगरी तलको workspace source मा lock गरिएको छ:
+
+../../remaining-script/GOVARDHAN_GATHA_REMAINING_SCRIPT_BHAAG_2_TO_4.txt
+
+नियम: उक्त source को Hindi dialogue, narration, क्रम वा story beat प्रयोगकर्ताको स्पष्ट अनुमतिबिना परिवर्तन नगर्नुहोस्।
