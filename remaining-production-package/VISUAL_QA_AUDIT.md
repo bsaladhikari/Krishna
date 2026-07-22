@@ -31,7 +31,7 @@ A start frame must show the instant **before** the main action, not its result. 
 | Scene | Status | Finding |
 |---|---|---|
 | B3-C01 | PASS | Correct continuation from Indra's prior threat into cloud command. |
-| B3-C02A/B | REVISE SPLIT SET | Split timing is correct; original board loses Indra and the A/B assets need final continuity QA. |
+| B3-C02A/B | PASS SPLIT v2 | Regenerated B opening preserves A's final wide geography with Indra, cloud army and Vraj; board continues into one-direction cloud departure. |
 | B3-C03 | PASS | Calm Vraj before the storm is readable. |
 | B3-C04 | PASS | Gust, reaction and darkening sky progression is readable. |
 | B3-C05 | PASS | Flood escalation is readable across four distinct beats. |
@@ -57,7 +57,7 @@ A start frame must show the instant **before** the main action, not its result. 
 | B4-C03 | PASS v2 | Corrected extreme-wide start keeps the colossal mountain elevated with Krishna tiny; board clearly lowers, contacts and naturally reseats it into the earth. |
 | B4-C04 | PASS v2 | Corrected start shows Yashoda running with a clear gap; board progresses through first touch, embrace and aarti aftermath without repeating the result. |
 | B4-C05 | PASS v2 | Corrected set progresses from family celebration through separation and first skyward turn to a knowing close-up, with an eyeline handoff toward Indra. |
-| B4-C06A/B | REVISE SPLIT SET | New remorse split visuals exist and need final A-to-B continuity QA. |
+| B4-C06A/B | PASS SPLIT v1 | A's bowed close-up cuts purposefully to a same-axis medium revealing the crown still in Indra's lap; identity, lighting and remorse remain continuous. |
 | B4-C07 | PASS v2 | Corrected crownless, unarmed Indra arrives walking; board progresses through stop, partial kneel and completed bow for the next confession. |
 | B4-C08 | PASS | Continues naturally from kneeling into confession. |
 | B4-C09A/B | REVISE SPLIT SET | New split visuals exist; final A-to-B hand/eyeline continuity QA remains. |

@@ -77,7 +77,7 @@ function splitDialogue(q,maxWords=17){const words=q.trim().split(/\s+/),out=[];l
 function expandClip(c){if(!c.q||wordCount(c.q)<=Math.floor((c.d-.9)*2.5))return [{...c,sourceId:c.id,take:1,takes:1}];const chunks=splitDialogue(c.q);return chunks.map((q,i)=>{const first=Math.floor(i*c.b.length/chunks.length),last=Math.min(c.b.length-1,Math.floor((i+1)*c.b.length/chunks.length));return {...c,id:`${c.id}${String.fromCharCode(65+i)}`,sourceId:c.id,d:8,q,take:i+1,takes:chunks.length,b:[c.b[first],c.b[last]]}})}
 const clips=SOURCE_CLIPS.flatMap(expandClip);
 const QA_REJECT=new Set([]);
-const QA_REVISE=new Set(['B3-C02A','B3-C02B','B4-C06A','B4-C06B','B4-C09A','B4-C09B','B4-C10A','B4-C10B']);
+const QA_REVISE=new Set(['B4-C09A','B4-C09B','B4-C10A','B4-C10B']);
 function qaStatus(c){if(c.hold)return '⚠ HOLD · प्रयोगकर्ता निर्णय बाँकी';if(QA_REJECT.has(c.id))return '✖ REJECTED · यो visual प्रयोग नगर्नुहोस्';if(QA_REVISE.has(c.id))return '⚠ QA REVISION · अहिले video नबनाउनुहोस्';return '✓ VISUAL QA PASS'}
 const VISUAL_OVERRIDES={
  'B2-C01':{sf:'B2-C01_START_FRAME_candidate_v1.png',sb:'B2-C01_STORYBOARD_2X2_candidate_v3.png'},
@@ -87,6 +87,8 @@ const VISUAL_OVERRIDES={
  'B2-C07B':{sf:'B2-C07B_START_FRAME_candidate_v2.png',sb:'B2-C07B_STORYBOARD_2X2_candidate_v2.png'},
  'B2-C12':{sf:'B2-C12_START_FRAME_candidate_v2.png',sb:'B2-C12_STORYBOARD_2X2_candidate_v2.png'},
  'B2-C13':{sf:'B2-C13_START_FRAME_candidate_v2.png',sb:'B2-C13_STORYBOARD_2X2_candidate_v2.png'},
+ 'B3-C02A':{sf:'B3-C02_START_FRAME_candidate_v1.png',sb:'B3-C02A_STORYBOARD_2X2_candidate_v1.png'},
+ 'B3-C02B':{sf:'B3-C02B_START_FRAME_candidate_v2.png',sb:'B3-C02B_STORYBOARD_2X2_candidate_v2.png'},
  'B3-C06':{sf:'B3-C06_START_FRAME_candidate_v2.png',sb:'B3-C06_STORYBOARD_2X2_candidate_v2.png'},
  'B3-C10':{sf:'B3-C10_START_FRAME_candidate_v2.png',sb:'B3-C10_STORYBOARD_2X2_candidate_v2.png'},
  'B3-C11':{sf:'B3-C11_START_FRAME_candidate_v2.png',sb:'B3-C11_STORYBOARD_2X2_candidate_v2.png'},
@@ -98,6 +100,8 @@ const VISUAL_OVERRIDES={
  'B4-C03':{sf:'B4-C03_START_FRAME_candidate_v2.png',sb:'B4-C03_STORYBOARD_2X2_candidate_v2.png'},
  'B4-C04':{sf:'B4-C04_START_FRAME_candidate_v2.png',sb:'B4-C04_STORYBOARD_2X2_candidate_v2.png'},
  'B4-C05':{sf:'B4-C05_START_FRAME_candidate_v2.png',sb:'B4-C05_STORYBOARD_2X2_candidate_v2.png'},
+ 'B4-C06A':{sf:'B4-C06_START_FRAME_candidate_v1.png',sb:'B4-C06A_STORYBOARD_2X2_candidate_v1.png'},
+ 'B4-C06B':{sf:'B4-C06B_START_FRAME_candidate_v1.png',sb:'B4-C06B_STORYBOARD_2X2_candidate_v1.png'},
  'B4-C07':{sf:'B4-C07_START_FRAME_candidate_v2.png',sb:'B4-C07_STORYBOARD_2X2_candidate_v2.png'},
  'B4-C11':{sf:'B4-C11_START_FRAME_candidate_v2.png',sb:'B4-C11_STORYBOARD_2X2_candidate_v2.png'},
  'B4-C12':{sf:'B4-C12_START_FRAME_candidate_v2.png',sb:'B4-C12_STORYBOARD_2X2_candidate_v2.png'}
