@@ -13,7 +13,7 @@ A start frame must show the instant **before** the main action, not its result. 
 | B2-C01 | PASS v3 BOARD | Replacement board now provides a deliberate wide-to-close throne progression and a still confident close-up before the Vraj cut. |
 | B2-C02 | PASS | Correct pre-decision state and readable progression toward Krishna/crowd reaction. |
 | B2-C03 | PASS | Nanda begins in thought before speaking; board progresses into the exchange. |
-| B2-C04A/B | REVISE SPLIT SET | Dialogue split is correct; dedicated split visuals require final continuity QA. |
+| B2-C04A/B | PASS SPLIT v1 | Dedicated A/B set preserves Krishna-right/Nanda-left screen direction, matching eyelines and a compatible straight-cut handoff. |
 | B2-C05 | PASS | Krishna-to-Govardhan resource montage is readable. |
 | B2-C06 | PASS | Question, silence, elder response progression is readable. |
 | B2-C07A/B | REVISE SPLIT SET | New split visuals exist but need final A-to-B continuity QA before approval. |
@@ -35,7 +35,7 @@ A start frame must show the instant **before** the main action, not its result. 
 | B3-C03 | PASS | Calm Vraj before the storm is readable. |
 | B3-C04 | PASS | Gust, reaction and darkening sky progression is readable. |
 | B3-C05 | PASS | Flood escalation is readable across four distinct beats. |
-| B3-C06 | REVISE CHARACTER | Spoken role is an adult Gopa, but the visual emphasis reads as an elderly Gopa; align speaker identity with the locked voice. |
+| B3-C06 | PASS v2 | Corrected set establishes one healthy adult Gopa as the focal speaker and hands his final eyeline directly toward Nanda. |
 | B3-C07 | PASS | Nanda's recognition of Indra's anger is clear. |
 | B3-C08 | PASS | Villagers reach Krishna and plead; multiple reactions are readable. |
 | B3-C09 | PASS | Krishna turns toward Govardhan and advances toward the decision. |
@@ -52,7 +52,7 @@ A start frame must show the instant **before** the main action, not its result. 
 
 | Scene | Status | Finding |
 |---|---|---|
-| B4-C01 | REVISE BOARD | Start is usable; storyboard panels are too repetitive to show rain weakening over time. |
+| B4-C01 | PASS v3 BOARD | Replacement board shows seven-day fatigue, Krishna unchanged, visibly weakening rain and the first faint light while preserving fingertip contact. |
 | B4-C02 | PASS | Sunlight, invitation and exit progression is readable. |
 | B4-C03 | PASS v2 | Corrected extreme-wide start keeps the colossal mountain elevated with Krishna tiny; board clearly lowers, contacts and naturally reseats it into the earth. |
 | B4-C04 | PASS v2 | Corrected start shows Yashoda running with a clear gap; board progresses through first touch, embrace and aarti aftermath without repeating the result. |
