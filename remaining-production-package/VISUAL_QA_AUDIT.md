@@ -16,7 +16,7 @@ A start frame must show the instant **before** the main action, not its result. 
 | B2-C04A/B | PASS SPLIT v1 | Dedicated A/B set preserves Krishna-right/Nanda-left screen direction, matching eyelines and a compatible straight-cut handoff. |
 | B2-C05 | PASS | Krishna-to-Govardhan resource montage is readable. |
 | B2-C06 | PASS | Question, silence, elder response progression is readable. |
-| B2-C07A/B | REVISE SPLIT SET | New split visuals exist but need final A-to-B continuity QA before approval. |
+| B2-C07A/B | PASS SPLIT v2 | B opening was regenerated to preserve A's villagers, cow, offerings, camera axis and eyelines; the continuation now plays as one uninterrupted speech. |
 | B2-C08 | PASS | Krishna speaks while food-sharing meaning is shown. |
 | B2-C09 | PASS | Nanda begins seated and progresses to the declaration. |
 | B2-C10 | PASS | Preparation montage has distinct food, cow and crowd beats. |
