@@ -60,8 +60,8 @@ A start frame must show the instant **before** the main action, not its result. 
 | B4-C06A/B | PASS SPLIT v1 | A's bowed close-up cuts purposefully to a same-axis medium revealing the crown still in Indra's lap; identity, lighting and remorse remain continuous. |
 | B4-C07 | PASS v2 | Corrected crownless, unarmed Indra arrives walking; board progresses through stop, partial kneel and completed bow for the next confession. |
 | B4-C08 | PASS | Continues naturally from kneeling into confession. |
-| B4-C09A/B | REVISE SPLIT SET | New split visuals exist; final A-to-B hand/eyeline continuity QA remains. |
-| B4-C10A/B | PENDING | Split assets are not complete. |
+| B4-C09A/B | PASS SPLIT v2 | Crownless Indra rises through one consistent left-to-right axis; the crown remains grounded, the handoff retains the handhold, and Krishna's protection lesson opens without a reset. |
+| B4-C10A/B | PASS SPLIT v2 | Krishna's close teaching progresses into Indra's tearful namaste, then a clear-sky Vraj release that hands directly to the B4-C11 flute opening. |
 | B4-C11 | PASS v2 | Corrected start visibly establishes the bansuri before playing; board preserves the flute through children, cattle, performance and restored-life wide. |
 | B4-C12 | PASS v2 | Corrected layered start and board establish restored mountain, lowered crown and protected Vraj as distinct motifs before recombining them. |
 | B4-C13 | PASS | Protected community and clear mountain conclusion are readable. |
