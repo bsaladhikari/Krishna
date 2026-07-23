@@ -65,7 +65,7 @@ A start frame must show the instant **before** the main action, not its result. 
 | B4-C11 | PASS v2 | Corrected start visibly establishes the bansuri before playing; board preserves the flute through children, cattle, performance and restored-life wide. |
 | B4-C12 | PASS v2 | Corrected layered start and board establish restored mountain, lowered crown and protected Vraj as distinct motifs before recombining them. |
 | B4-C13 | PASS | Protected community and clear mountain conclusion are readable. |
-| B4-C14 | HOLD | Direct audience address remains subject to the existing user decision; do not generate as a normal cinematic ending without approval. |
+| B4-C14 | PASS v2 | User approved Krishna’s direct address. The corrected start continues the sunlit Vraj conclusion; the board progresses through direct address, open palm, hand-to-heart and a restrained blessing without a separate devotional cutaway. |
 
 ## Regeneration priority
 
